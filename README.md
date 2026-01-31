@@ -1,5 +1,5 @@
-# CICC IBD Healthcare FDA510k Weekly Tracker —— Regulatory Signals → Screening Long-list
-Excel-based FDA 510(k) weekly tracker built during a CICC IBD Healthcare internship: Power Query ETL, product_code left-join with FOI classification, pivot dashboards, XLOOKUP-based enrichment for the long-list, and one-click VBA refresh to generate a management-ready weekly summary.
+# FDA 510(k) Weekly Tracker — Regulatory Signals → Screening Long-list
+
 
 ## 0) What this is
 A lightweight Excel-based workflow that turns **foiclass and FDA 510(k) event data** into:
