@@ -48,8 +48,8 @@ A compact KPI panel intended for weekly review. Typical items include:
 
 <table>
   <tr>
-    <td><img src="./08_Pivot_Top_Applicants.png" width="400"/></td>
-    <td><img src="./09_Pivot_Top_Applicants%202.png" width="400"/></td>
+    <td><img src="outputs/08_Pivot_Top_Applicants.png" width="400"/></td>
+    <td><img src="outputs/09_Pivot_Top_Applicants%202.png" width="400"/></td>
   </tr>
 </table>
 
