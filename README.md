@@ -46,7 +46,7 @@ A compact KPI panel intended for weekly review. Typical items include:
 - Device class distribution
 - Long-list recency buckets
 
-<table>
+<table align="center">
   <tr>
     <th>Pivot – Top Applicants</th>
     <th>Pivot – Top Applicants (Enriched)</th>
