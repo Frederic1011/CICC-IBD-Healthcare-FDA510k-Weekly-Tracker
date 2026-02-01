@@ -55,16 +55,16 @@ A compact KPI panel intended for weekly review. Typical items include:
 
 <table>
   <tr>
-    <td><img src="./10_Pivot_Clinical_Area.png" width="400"/></td>
-    <td><img src="./11_Pivot_Clinical_Area%202.png" width="400"/></td>
+    <td><img src="outputs/10_Pivot_Clinical_Area.png" width="400"/></td>
+    <td><img src="outputs/11_Pivot_Clinical_Area%202.png" width="400"/></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="./12_Pivot_Top_Device_Class.png" width="400"/></td>
-    <td><img src="./14_Pivot_Longlist_Recency.png" width="400"/></td>
+    <td><img src="outputs/12_Pivot_Top_Device_Class.png" width="400"/></td>
+    <td><img src="outputs/14_Pivot_Longlist_Recency.png" width="400"/></td>
   </tr>
 </table>
 
-<img src="./13_Longlist_Companies_Products.png" width="900"/>
+<img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
