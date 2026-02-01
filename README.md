@@ -57,7 +57,7 @@ A compact KPI panel intended for weekly review. Typical items include:
   </tr>
 </table>
 
-<table>
+<table align="center">
   <tr>
     <th>Pivot – Clinical Area</th>
     <th>Pivot – Clinical Area (Enriched)</th>
@@ -68,7 +68,7 @@ A compact KPI panel intended for weekly review. Typical items include:
   </tr>
 </table>
 
-<table>
+<table align="center">
   <tr>
     <th>Pivot – Top Device Class</th>
     <th>Pivot – Long-list Recency</th>
