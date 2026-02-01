@@ -83,3 +83,12 @@ A compact KPI panel intended for weekly review. Typical items include:
   <b>Long-list Table</b><br/>
   <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
 </div>
+
+## 3) Data sources used in this build
+This repo includes **sample inputs** used to validate the workflow (designed to scale to full history later):
+- `original_dataset_2_510k_Top100.json` — 510(k) event records (sample)
+- `original_dataset_1_foiclass.txt` — FOI classification reference (Product Code mapping)
+- `Medical Device Companies.csv` — an external reference list (used as a lightweight lookup / enrichment input)
+
+> Note: This is an Excel tooling project, not a public data product. Inputs are included only to demonstrate reproducibility of the workflow.
+
