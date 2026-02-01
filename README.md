@@ -92,3 +92,15 @@ This repo includes **sample inputs** used to validate the workflow (designed to 
 
 > Note: This is an Excel tooling project, not a public data product. Inputs are included only to demonstrate reproducibility of the workflow.
 
+## 4) Core pipeline
+### 4.1 Power Query ETL (refreshable)
+1) Load raw 510(k) events (100 sample records)
+2) Load FOI classification table  
+3) **Left join** on `product_code` → `PRODUCTCODE`  
+4) Output an enriched event table used by pivots  
+   - Query name in workbook: **`Merge(product_code)`**
+
+Why this matters:
+- avoids manual copy/paste,
+- keeps pivots consistent after refresh,
+- separates “source” from “analysis outputs.”
