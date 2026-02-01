@@ -104,3 +104,24 @@ Why this matters:
 - avoids manual copy/paste,
 - keeps pivots consistent after refresh,
 - separates “source” from “analysis outputs.”
+
+### 4.2 Pivot layer (analysis views)
+All pivots point to the **enriched event table** to keep definitions consistent.
+- Applicants pivot: counts by `k_number` (or event id)
+- Clinical Area pivot: distribution by clinical specialty/area
+- Device Class pivot: distribution by FOI device class
+- Long-list Recency pivot: company counts by activity bucket
+
+### 4.3 Long-list layer (screening table)
+Sheet: `Longlist_Companies_Products`
+
+Purpose: create a stable “company/product pool” that an analyst can annotate and update weekly, fed by regulatory data.
+Typical fields:
+- Company / Country / Segment / Product Name / Clinical Area  
+- Regulatory Path / Latest Milestone  
+- Notes (standardized analyst-style phrasing)
+
+Enrichment approach:
+- Excel lookup logic (XLOOKUP / structured references) pulls key fields from the event table.
+- The structure is designed to switch to **MAX logic** (per company/product) once multi-event history is loaded.
+
