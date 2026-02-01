@@ -81,5 +81,5 @@ A compact KPI panel intended for weekly review. Typical items include:
 
 <div align="center">
   <b>Long-list Table</b><br/>
-  <img src="./13_Longlist_Companies_Products.png" width="900"/>
+  <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
 </div>
