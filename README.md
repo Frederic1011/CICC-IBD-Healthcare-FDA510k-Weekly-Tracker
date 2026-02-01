@@ -16,3 +16,17 @@ In healthcare deal screening, “what got cleared, where, and how recently” is
 - **Repeat players** (top applicants / product activity).
 
 This tool is built to support **weekly monitoring** and quickly surface “what changed” without manually reworking slides each week.
+
+## 2) What you get (deliverables)
+### 2.1 Weekly Summary (1-page)
+A compact KPI panel intended for weekly review. Typical items include:
+- Total record count
+- “High” count/share (rule-based flag)
+- Latest decision date + recency indicators
+- Top Applicant (tie handled) + Top Clinical Area
+- Top Device Class + share
+- Long-list recency distribution (activity bucket)
+
+![05_basic_weekly_update_summary](outputs/05_basic_weekly_update_summary.png)
+![06_intermediate_weekly_update_summary](outputs/06_intermediate_weekly_update_summary.png)
+![07_advanced_weekly_update_summary](outputs/07_advanced_weekly_update_summary.png)
