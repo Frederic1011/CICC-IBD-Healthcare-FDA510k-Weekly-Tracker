@@ -144,6 +144,20 @@ Files:
 - `03_PFA_EP_regulatory_tracker_excel_intermediate...`
 - `04_PFA_EP_regulatory_tracker_excel_advanced...`
 
+## 7) Assumptions & limitations
+- Current input is a Top-100 sample; scaling to full 510(k) history will:
+  - increase repeated applicants/products,
+  - make “latest decision date” per company/product meaningful (MAX logic),
+  - strengthen trend monitoring across weeks.
+- “High / Medium” style flags are rule-based and meant for **screening**, not final diligence conclusions.
+- Some fields (e.g., notes/segment) are intentionally semi-manual to reflect analyst workflow.
+
+## 8) Technical & analytical takeaways
+- **Power Query**: ETL, type handling, joins, refreshable pipeline  
+- **Data modeling in Excel**: structured tables, pivot design, drill-down logic  
+- **Business-ready reporting**: KPI summary layout, tie-handling, recency segmentation  
+- **Automation**: simple VBA macro to make the weekly workflow repeatable  
+- **Communication**: turning raw regulatory events into a screening view + weekly narrative-ready outputs
 
 
 
