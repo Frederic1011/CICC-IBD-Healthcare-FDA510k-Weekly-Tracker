@@ -125,3 +125,25 @@ Enrichment approach:
 - Excel lookup logic (XLOOKUP / structured references) pulls key fields from the event table.
 - The structure is designed to switch to **MAX logic** (per company/product) once multi-event history is loaded.
 
+## 5) Automation (one-click weekly refresh)
+A simple macro button on `Weekly Summary` triggers a refresh workflow:
+- refresh Power Query connections,
+- refresh pivot tables,
+- update the one-page summary cells.
+
+Goal: reduce the weekly refresh to a repeatable operation (analyst-friendly, low risk of manual errors).
+
+## 6) Versioned workbooks (build traceability)
+To show how the model evolved, the repo keeps three staged files:
+- **Basic**: KPI summary + baseline pivots  
+- **Intermediate**: FOI enrichment via `product_code` join + device class pivot  
+- **Advanced**: long-list enrichment + recency segmentation + full screenshot pack  
+
+Files:
+- `02_PFA_EP_regulatory_tracker_excel_basic...`
+- `03_PFA_EP_regulatory_tracker_excel_intermediate...`
+- `04_PFA_EP_regulatory_tracker_excel_advanced...`
+
+
+
+
