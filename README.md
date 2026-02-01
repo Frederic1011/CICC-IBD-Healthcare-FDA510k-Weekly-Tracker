@@ -27,19 +27,15 @@ A compact KPI panel intended for weekly review. Typical items include:
 - Top Device Class + share
 - Long-list recency distribution (activity bucket)
 
-<div align="center">
-  <div style="display:inline-block; margin:10px">
-    <div><b>Basic Weekly Update</b></div>
-    <img src="outputs/05_basic_weekly_update_summary.png" width="300"/>
-  </div>
-
-  <div style="display:inline-block; margin:10px">
-    <div><b>Intermediate Weekly Update</b></div>
-    <img src="outputs/06_intermediate_weekly_update_summary.png" width="300"/>
-  </div>
-
-  <div style="display:inline-block; margin:10px">
-    <div><b>Advanced Weekly Update</b></div>
-    <img src="outputs/07_advanced_weekly_update_summary.png" width="300"/>
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <th>Basic Weekly Update</th>
+    <th>Intermediate Weekly Update</th>
+    <th>Advanced Weekly Update</th>
+  </tr>
+  <tr>
+    <td><img src="outputs/05_basic_weekly_update_summary.png" width="300"/></td>
+    <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="300"/></td>
+    <td><img src="outputs/07_advanced_weekly_update_summary.png" width="300"/></td>
+  </tr>
+</table>
