@@ -1,7 +1,7 @@
 # FDA 510(k) Weekly Tracker — Regulatory Signals → Screening Long-list
 
 ## 0) What this is
-An internal-style weekly regulatory tracker that converts **foiclass and FDA 510(k) event data** into:
+An internal-style weekly regulatory tracker that converts **FOI classification and FDA 510(k) event data** into:
 1) a **one-page Weekly Summary** (weekly KPI snapshot),  
 2) a set of **drill-down pivots** (Applicants / Clinical Area / Device Class / Recency), and  
 3) a **Companies × Products long-list** used for early-stage screening and follow-up diligence.
