@@ -133,6 +133,14 @@ A simple macro button on `Weekly Summary` triggers a refresh workflow:
 
 Goal: reduce the weekly refresh to a repeatable operation (analyst-friendly, low risk of manual errors).
 
+### Refresh Check (Data QC)
+Before each weekly output is shared, a simple refresh check is applied:
+- FOI classification match rate (join coverage)
+- Unmapped FOI count
+- PASS / FAIL flag based on a predefined threshold
+
+This ensures the weekly summary and screening long-list are internally reviewable.
+
 ## 6) Versioned workbooks (build traceability)
 To show how the model evolved, the repo keeps three staged files:
 - **Basic**: KPI summary + baseline pivots  
