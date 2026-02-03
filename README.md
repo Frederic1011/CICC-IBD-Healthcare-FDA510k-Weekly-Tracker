@@ -1,7 +1,7 @@
 # FDA 510(k) Weekly Tracker — Regulatory Signals → Screening Long-list
 
 ## 0) What this is
-A lightweight Excel-based workflow that turns **foiclass and FDA 510(k) event data** into:
+An internal-style weekly regulatory tracker that converts **foiclass and FDA 510(k) event data** into:
 1) a **one-page Weekly Summary** (weekly KPI snapshot),  
 2) a set of **drill-down pivots** (Applicants / Clinical Area / Device Class / Recency), and  
 3) a **Companies × Products long-list** used for early-stage screening and follow-up diligence.
@@ -15,7 +15,7 @@ In healthcare deal screening, “what got cleared, where, and how recently” is
 - **Category momentum** (clinical area concentration),
 - **Repeat players** (top applicants / product activity).
 
-This tool is built to support **weekly monitoring** and quickly surface “what changed” without manually reworking slides each week.
+This tool is built to support internal **weekly monitoring** and **early-stage deal screening**, quickly surfacing “what changed” without manually reworking slides each week.
 
 ## 2) What you get (deliverables)
 ### 2.1 Weekly Summary (1-page)
