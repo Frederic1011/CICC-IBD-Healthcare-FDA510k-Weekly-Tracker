@@ -34,7 +34,7 @@ A compact KPI panel intended for weekly review. Typical items include:
   </tr>
   <tr>
     <td><img src="outputs/05_basic_weekly_update_summary.png" width="500"/></td>
-    <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="440"/></td>
+    <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="450"/></td>
   </tr>
 
   <tr><td colspan="2" height="25"></td></tr>
