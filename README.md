@@ -41,7 +41,7 @@ A compact KPI panel intended for weekly review. Typical items include:
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="outputs/07_advanced_weekly_update_summary_with_refresh_check_and_QC_threshold.png" width="520"/>
+      <img src="outputs/07_advanced_weekly_update_summary_with refresh check_and QC threshold.png" width="520"/>
     </td>
   </tr>
 </table>
