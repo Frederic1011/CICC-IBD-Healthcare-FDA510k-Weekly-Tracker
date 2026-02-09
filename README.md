@@ -36,12 +36,15 @@ A compact KPI panel intended for weekly review. Typical items include:
     <td><img src="outputs/05_basic_weekly_update_summary.png" width="420"/></td>
     <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="420"/></td>
   </tr>
+
+  <tr><td colspan="2" height="25"></td></tr>
+
   <tr>
-    <th colspan="2">Advanced Weekly Update</th>
+    <th colspan="2">Advanced Weekly Dashboard</th>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="outputs/07_advanced_weekly_update_summary with refresh check and QC threshold.png" width="650"/>
+      <img src="outputs/07_advanced_weekly_update_summary with refresh check and QC threshold.png" width="600"/>
     </td>
   </tr>
 </table>
