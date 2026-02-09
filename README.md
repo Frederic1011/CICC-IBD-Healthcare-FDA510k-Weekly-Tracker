@@ -33,8 +33,8 @@ A compact KPI panel intended for weekly review. Typical items include:
     <th>Intermediate Weekly Update</th>
   </tr>
   <tr>
-    <td><img src="outputs/05_basic_weekly_update_summary.png" width="420"/></td>
-    <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="420"/></td>
+    <td><img src="outputs/05_basic_weekly_update_summary.png" width="500"/></td>
+    <td><img src="outputs/06_intermediate_weekly_update_summary.png" width="500"/></td>
   </tr>
 
   <tr><td colspan="2" height="25"></td></tr>
@@ -44,7 +44,7 @@ A compact KPI panel intended for weekly review. Typical items include:
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="outputs/07_advanced_weekly_update_summary with refresh check and QC threshold.png" width="700"/>
+      <img src="outputs/07_advanced_weekly_update_summary with refresh check and QC threshold.png" width="1000"/>
     </td>
   </tr>
 </table>
