@@ -20,13 +20,19 @@ This tool is built to support internal **weekly monitoring** and **early-stage d
 
 ## 2) What you get (deliverables)
 ### 2.1 Weekly Summary (1-page)
-A compact KPI panel intended for weekly review. Typical items include:
-- Total record count
-- “High” count/share (rule-based flag)
-- Latest decision date + recency indicators
-- Top Applicant (tie handled) + Top Clinical Area
-- Top Device Class + share
-- Long-list recency distribution (activity bucket)
+Across versions, the one-page Weekly Summary keeps the same layout, while functionality is added step-by-step:
+
+- **Basic (v1)**: establishes the core KPI snapshot for a weekly internal check-in
+  (refresh timestamp, total records, rule-based high count/share, latest decision date, rolling activity, US share, top applicant / top clinical area, and focus-company counts for PFA/EP).
+- **Intermediate (v2)**: keeps the same weekly page, but strengthens the regulatory interpretation layer by adding **FOI enrichment**
+  (product_code → PRODUCTCODE), enabling **device class reporting** on the summary (Top Device Class + share).
+- **Advanced (v3)**: upgrades the weekly page into a review-ready dashboard by adding lightweight governance and drillability:
+  - **Top drivers become dynamic**: Top 1 Applicant / Top 1 Clinical Area can be pulled from the **enriched pivots** via **XLOOKUP**
+    (tie handled) and displayed as **clickable drill-down hyperlinks**
+  - **Refresh Check (Data QC gate)**: FOI match rate, unmapped FOI count, and a **PASS/FAIL** flag
+  - **Parameters**: As-of date (reporting cut) and QC threshold (drives PASS/FAIL) to avoid hard-coding and keep outputs review-ready
+  - A small **Notes** area reserved for weekly call comments / follow-ups
+
 
 <table align="center">
   <tr>
