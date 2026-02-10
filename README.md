@@ -51,7 +51,7 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="outputs/07_advanced_weekly_update_summary with refresh check and QC threshold.png" width="1000"/>
+      <img src="outputs/07_advanced_weekly_update_summary_with_refresh_check_and_QC_threshold.png" width="1000"/>
     </td>
   </tr>
 </table>
