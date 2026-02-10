@@ -24,8 +24,10 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
 
 - **Basic (v1)**: establishes the core KPI snapshot for a weekly internal check-in
   (refresh timestamp, total records, rule-based high count/share, latest decision date, rolling activity, US share, top applicant / top clinical area, and focus-company counts for PFA/EP).
+  
 - **Intermediate (v2)**: keeps the same weekly page, but strengthens the regulatory interpretation layer by adding **FOI enrichment**
   (product_code → PRODUCTCODE), enabling **device class reporting** on the summary (Top Device Class + share).
+  
 - **Advanced (v3)**: upgrades the weekly page into a review-ready dashboard by adding lightweight governance and drillability:
   - **Top drivers become dynamic**: Top 1 Applicant / Top 1 Clinical Area can be pulled from the **enriched pivots** via **XLOOKUP**
     (tie handled) and displayed as **clickable drill-down hyperlinks**
