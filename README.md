@@ -33,6 +33,7 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
   - **Parameters**: As-of date (reporting cut) and QC threshold (drives PASS/FAIL) to avoid hard-coding and keep outputs review-ready
   - A small **Notes** area reserved for weekly call comments / follow-ups
 
+**Core KPIs are visible in the screenshots below.**
 
 <table align="center">
   <tr>
