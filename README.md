@@ -103,6 +103,12 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
   <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
 </div>
 
+### 2.3 Screening Long-list (Table)：
+<div align="center">
+  <b>Long-list Table</b><br/>
+  <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
+</div>
+
 ## 3) Data sources used in this build
 This repo includes **sample inputs** used to validate the workflow (designed to scale to full history later):
 - `original_dataset_2_510k_Top100.json` — 510(k) event records (sample)
