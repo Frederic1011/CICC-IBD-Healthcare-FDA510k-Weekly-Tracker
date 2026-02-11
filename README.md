@@ -99,12 +99,12 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
 </table>
 
 ### 2.3 Screening Long-list (Table)：
+A standardized screening table consolidating Company × Product candidates from weekly 510(k) signals, used for priority triage and follow-up tracking.
+
 <div align="center">
   <b>Long-list Table</b><br/>
   <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
 </div>
-
-A standardized screening table consolidating Company × Product candidates from weekly 510(k) signals, used for priority triage and follow-up tracking.
 
 ## 3) Data sources used in this build
 This repo includes **sample inputs** used to validate the workflow (designed to scale to full history later):
