@@ -144,6 +144,16 @@ Enrichment approach:
 - Excel lookup logic (XLOOKUP / structured references) pulls key fields from the event table.
 - The structure is designed to switch to **MAX logic** (per company/product) once multi-event history is loaded.
 
+## 4.3 Long-list layer (screening table)
+Sheet: `Longlist_Companies_Products`
+
+Purpose: a working pool (company / product) that an analyst can annotate during screening and follow-up.
+
+Current implementation (sample Top-100):
+- row-level long-list generated from the master event table using **structured references**
+- designed to be upgraded to a deduplicated “latest milestone per company/product” logic once full history is loaded
+
+
 ## 5) Automation (one-click weekly refresh)
 A simple macro button on `Weekly Summary` triggers a refresh workflow:
 - refresh Power Query connections,
