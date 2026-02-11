@@ -98,11 +98,6 @@ Across versions, the one-page Weekly Summary keeps the same layout, while functi
   </tr>
 </table>
 
-<div align="center">
-  <b>Long-list Table</b><br/>
-  <img src="outputs/13_Longlist_Companies_Products.png" width="900"/>
-</div>
-
 ### 2.3 Screening Long-list (Table)：
 <div align="center">
   <b>Long-list Table</b><br/>
