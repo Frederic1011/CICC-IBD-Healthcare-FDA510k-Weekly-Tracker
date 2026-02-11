@@ -150,18 +150,17 @@ Sheet: `Longlist_Companies_Products`
 - Move to a one-line-per-company/product view with “latest milestone” logic.
 
 ## 5) Automation (one-click weekly refresh)
-A simple macro button on `Weekly Summary` triggers a refresh workflow:
-- refresh Power Query connections,
-- refresh pivot tables,
-- update the one-page summary cells.
+A macro button on `Weekly_Update` triggers:
+- refresh Power Query connections + pivots,
+- update the “Last refresh time” timestamp.
 
 Goal: reduce the weekly refresh to a repeatable operation (analyst-friendly, low risk of manual errors).
 
-### Refresh Check (Data QC)
-Before each weekly output is shared, a simple refresh check is applied:
-- FOI classification match rate (join coverage)
-- Unmapped FOI count
-- PASS / FAIL flag based on a predefined threshold
+### Refresh Check (Data QC gate)
+Before sharing the weekly output, the dashboard displays:
+- FOI match rate (join coverage),
+- unmapped FOI count,
+- PASS/FAIL based on a configurable QC threshold.
 
 This ensures the weekly summary and screening long-list are internally reviewable.
 
