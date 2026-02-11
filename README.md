@@ -131,28 +131,23 @@ All pivots point to the **enriched event table** to keep definitions consistent.
 - Device Class pivot: distribution by FOI device class
 - Long-list Recency pivot: company counts by activity bucket
 
-### 4.3 Long-list layer (screening table)
-Sheet: `Longlist_Companies_Products`
-
-Purpose: create a stable “company/product pool” that an analyst can annotate and update weekly, fed by regulatory data.
-Typical fields:
-- Company / Country / Segment / Product Name / Clinical Area  
-- Regulatory Path / Latest Milestone  
-- Notes (standardized analyst-style phrasing)
-
-Enrichment approach:
-- Excel lookup logic (XLOOKUP / structured references) pulls key fields from the event table.
-- The structure is designed to switch to **MAX logic** (per company/product) once multi-event history is loaded.
-
 ## 4.3 Long-list layer (screening table)
 Sheet: `Longlist_Companies_Products`
 
-Purpose: a working pool (company / product) that an analyst can annotate during screening and follow-up.
+**Purpose**
+- Create a working pool (company / product) that an analyst can annotate during screening and follow-up.
 
-Current implementation (sample Top-100):
-- row-level long-list generated from the master event table using **structured references**
-- designed to be upgraded to a deduplicated “latest milestone per company/product” logic once full history is loaded
+**Build**
+- Seeded from the master 510(k) table (structured references).
+- Sample input is Top-100, so repeats may show up.
+- Key signals: Latest 510(k) Decision Date (MAXIFS) + recency bucket.
 
+**Use**
+- Add analyst notes / priority tags during initial review.
+- Drill down via enriched pivots when needed.
+
+**Next (when scaled)**
+- Move to a one-line-per-company/product view with “latest milestone” logic.
 
 ## 5) Automation (one-click weekly refresh)
 A simple macro button on `Weekly Summary` triggers a refresh workflow:
